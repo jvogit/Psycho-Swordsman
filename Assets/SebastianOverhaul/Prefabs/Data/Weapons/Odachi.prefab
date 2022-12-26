@@ -1,0 +1,224 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &4782280038023830632
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3677314243857234493}
+  m_Layer: 0
+  m_Name: Weapon Pivot
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3677314243857234493
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4782280038023830632}
+  m_LocalRotation: {x: -0.46685737, y: 0.4818362, z: -0.47686303, w: 0.567873}
+  m_LocalPosition: {x: 7.4, y: 3, z: 1.7}
+  m_LocalScale: {x: 100, y: 100, z: 100}
+  m_Children:
+  - {fileID: 8517570721227578925}
+  - {fileID: 7655969768797458301}
+  m_Father: {fileID: 8303057558671881026}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: -4.054, y: 84.26, z: -83.71}
+--- !u!1 &7885018677036729772
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8303057558671881026}
+  m_Layer: 0
+  m_Name: Odachi
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8303057558671881026
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7885018677036729772}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 3677314243857234493}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &8250428046441390840
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7655969768797458301}
+  m_Layer: 0
+  m_Name: PlayParticleAt
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7655969768797458301
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8250428046441390840}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0.987, z: -0.0412}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 3677314243857234493}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &8517570721227804151
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8517570721227578925}
+  - component: {fileID: 8517570721230966693}
+  - component: {fileID: 8517570721229841513}
+  - component: {fileID: 4622066706462714320}
+  - component: {fileID: 3853739592068541402}
+  m_Layer: 0
+  m_Name: SM_Wep_Odachi_01
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 4294967295
+  m_IsActive: 1
+--- !u!4 &8517570721227578925
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8517570721227804151}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 3677314243857234493}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!33 &8517570721230966693
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8517570721227804151}
+  m_Mesh: {fileID: 4300000, guid: b8000949872c53948ba6fe5768471d8c, type: 3}
+--- !u!23 &8517570721229841513
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8517570721227804151}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 4eaaa3032586832468e97a6452e498a4, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!65 &4622066706462714320
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8517570721227804151}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.07746134, y: 1.5188171, z: 0.19031534}
+  m_Center: {x: 0.00000083085126, y: 0.51122165, z: -0.0325712}
+--- !u!114 &3853739592068541402
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8517570721227804151}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8a7e1c7dbd1a6f14db44938a8b87c959, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  damage: 10
+  collideWith:
+    serializedVersion: 2
+    m_Bits: 0
+  owner: {fileID: 0}
+  swordhit:
+  - {fileID: 8300000, guid: 86bb01ffc8c100a4e97ce4d1797042b3, type: 3}
+  - {fileID: 8300000, guid: 7542ed1290da0db42941f06ea75b7b79, type: 3}
+  - {fileID: 8300000, guid: 1c46d4d833d4a8543ab8f701c7afa05b, type: 3}
+  - {fileID: 8300000, guid: d9ad4d3e9606ea04b9a8e148771c9782, type: 3}
+  - {fileID: 8300000, guid: a17a9f5fc98c88f41a6309e43e2be81a, type: 3}
+  - {fileID: 8300000, guid: a8df70bd46fc9014caaf1612263c83f5, type: 3}
+  - {fileID: 8300000, guid: 5f2ee57e284711b4ba947a6a5c709eb9, type: 3}
+  - {fileID: 8300000, guid: c77bb6fd74717d0448cc343db780364c, type: 3}
+  - {fileID: 8300000, guid: f1c1dae55acea9a4997a425129c460c3, type: 3}
+  - {fileID: 8300000, guid: fbf11e428ccade448817bed9200efbf0, type: 3}
+  swordHitShield: {fileID: 8300000, guid: a835cf891cbcfb249be6734b44e494c1, type: 3}
+  parried: {fileID: 8300000, guid: 95ff102dc979da74d9165422ef742185, type: 3}
+  damagePopup: {fileID: 7148694888900042204, guid: e8b1461223a84ee47a9ea5a2e304bc11, type: 3}
+  weaponParticle: {fileID: 11400000, guid: 2262bb94af8c8cf45a821d9650643ec5, type: 2}
+  playParticleAt: {fileID: 7655969768797458301}

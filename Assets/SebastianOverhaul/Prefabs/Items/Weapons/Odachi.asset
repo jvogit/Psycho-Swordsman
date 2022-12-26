@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dd09465fd7639c548ad937c56d5e8e37, type: 3}
+  m_Name: Odachi
+  m_EditorClassIdentifier: 
+  modelPrefab: {fileID: 7885018677036729772, guid: dc4ac6d46e0039c449232c344d784f2a, type: 3}
+  isUnarmed: 0
+  OH_Quick_Attack_: OH_Quick_Attack_
+  OH_Charge_Attack_: OH_Charge_Attack_
+  isMeleeWeapon: 1
+  isShieldWeapon: 0
+  weaponParticle: {fileID: 11400000, guid: 2262bb94af8c8cf45a821d9650643ec5, type: 2}
